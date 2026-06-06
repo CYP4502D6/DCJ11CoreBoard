@@ -21332,12 +21332,6 @@
 		(uuid "b4efbc51-bc2f-4f8b-971f-b170af9a8c94")
 	)
 	(junction
-		(at 102.87 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b660b8f2-2f9f-4647-a460-39396d374970")
-	)
-	(junction
 		(at 515.62 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -21528,6 +21522,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7570afb-74d4-4e88-b98f-af5c11778309")
+	)
+	(junction
+		(at 102.87 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9a71951-a7e1-48c9-ab44-80882bb9e29c")
 	)
 	(junction
 		(at 219.71 196.85)
@@ -22585,16 +22585,6 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 325.12) (xy 288.29 325.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1848d43c-de70-47fd-a68f-90eb3a849e56")
-	)
-	(wire
-		(pts
 			(xy 553.72 189.23) (xy 553.72 191.77)
 		)
 		(stroke
@@ -22942,16 +22932,6 @@
 			(type default)
 		)
 		(uuid "21f7774e-d3fc-4886-b798-0fa1210ca561")
-	)
-	(wire
-		(pts
-			(xy 102.87 44.45) (xy 102.87 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21f99a58-e49a-435e-98e3-c9613091aa3b")
 	)
 	(wire
 		(pts
@@ -24485,6 +24465,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 325.12) (xy 285.75 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d33932e-05a6-445b-9ea0-45604e691b26")
+	)
+	(wire
+		(pts
 			(xy 323.85 46.99) (xy 313.69 46.99)
 		)
 		(stroke
@@ -25915,6 +25905,16 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 327.66) (xy 288.29 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e3b9d92-0726-439b-9251-9523e00729bf")
+	)
+	(wire
+		(pts
 			(xy 289.56 215.9) (xy 289.56 220.98)
 		)
 		(stroke
@@ -26532,6 +26532,16 @@
 			(type default)
 		)
 		(uuid "9468e7cc-77b4-4d29-b3d9-03ae42bdf5bc")
+	)
+	(wire
+		(pts
+			(xy 95.25 48.26) (xy 102.87 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9496cf14-2065-47ff-a626-db9f65d938c2")
 	)
 	(wire
 		(pts
@@ -27415,16 +27425,6 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 327.66) (xy 288.29 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af8b1a3b-32d2-480a-85af-f65e51a8d871")
-	)
-	(wire
-		(pts
 			(xy 363.22 245.11) (xy 365.76 245.11)
 		)
 		(stroke
@@ -27932,16 +27932,6 @@
 			(type default)
 		)
 		(uuid "c4218cb1-f7e6-488a-b75a-95727c870be8")
-	)
-	(wire
-		(pts
-			(xy 95.25 48.26) (xy 102.87 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c42fb0ae-7752-494a-a8ba-b3fe5733073b")
 	)
 	(wire
 		(pts
@@ -41612,7 +41602,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 288.29 325.12 90)
+		(at 288.29 327.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -41623,7 +41613,7 @@
 		(fields_autoplaced yes)
 		(uuid "1951affd-7afd-40b8-994a-378ce4497090")
 		(property "Reference" "#PWR098"
-			(at 294.64 325.12 0)
+			(at 294.64 327.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41634,7 +41624,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 292.1 325.1199 90)
+			(at 292.1 327.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41645,7 +41635,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 325.12 0)
+			(at 288.29 327.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41656,7 +41646,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 325.12 0)
+			(at 288.29 327.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41667,7 +41657,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 288.29 325.12 0)
+			(at 288.29 327.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44740,7 +44730,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 288.29 327.66 270)
+		(at 288.29 325.12 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -44751,7 +44741,7 @@
 		(fields_autoplaced yes)
 		(uuid "28c8256b-cf47-48cf-bcb8-7c0659d0ca74")
 		(property "Reference" "#PWR0158"
-			(at 284.48 327.66 0)
+			(at 284.48 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44762,7 +44752,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 292.1 327.6599 90)
+			(at 292.1 325.1199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44773,7 +44763,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 327.66 0)
+			(at 288.29 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44784,7 +44774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 327.66 0)
+			(at 288.29 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44795,7 +44785,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 288.29 327.66 0)
+			(at 288.29 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55870,119 +55860,6 @@
 			(project "DCJ11CoreBoard"
 				(path "/5eec0387-d8fb-44a4-a3c8-821139754cf1"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:SZYY0603B1")
-		(at 370.84 228.6 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "51cf453d-7268-4e94-978c-91f974fad1f1")
-		(property "Reference" "LED7"
-			(at 371.602 225.044 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SZYY0603B1"
-			(at 372.11 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "JLCImport:SZYY0603B1"
-			(at 370.84 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20231222/D33A5C3EC9CFE77C45E9F05B860C6407.pdf"
-			(at 370.84 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "蓝灯"
-			(at 370.84 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C19712531"
-			(at 370.84 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "yongyu(永裕光电)"
-			(at 370.84 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "SZYY0603B1"
-			(at 370.84 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bdea88c2-f101-4cd6-afdf-3773cccc3e8f")
-		)
-		(pin "2"
-			(uuid "01a52c51-82e2-411c-b2b3-0b77eda17bb3")
-		)
-		(instances
-			(project "DCJ11CoreBoard"
-				(path "/5eec0387-d8fb-44a4-a3c8-821139754cf1"
-					(reference "LED7")
 					(unit 1)
 				)
 			)
@@ -75635,6 +75512,274 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0603,1kΩ")
+		(at 102.87 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aaa1f51e-d184-4ba4-a1b7-222a8994eacf")
+		(property "Reference" "R67"
+			(at 105.41 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1kΩ"
+			(at 102.87 44.45 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0603"
+			(at 101.092 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf"
+			(at 102.87 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 1kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 102.87 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 102.87 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "27538425"
+			(at 102.87 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 102.87 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 102.87 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 102.87 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 102.87 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 102.87 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 102.87 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 102.87 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "0603WAF1001T5E"
+			(at 102.87 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" "1kΩ"
+			(at 102.87 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power(Watts)" "100mW"
+			(at 102.87 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 102.87 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Overload Voltage (Max)" "75V"
+			(at 102.87 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 102.87 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 102.87 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 102.87 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "05e19de1-48f3-4b94-8ae3-e2fc4b1497b8")
+		)
+		(pin "1"
+			(uuid "ffe33077-fbdf-4a70-9932-16c5d7bf21c0")
+		)
+		(instances
+			(project "DCJ11CoreBoard"
+				(path "/5eec0387-d8fb-44a4-a3c8-821139754cf1"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 353.06 245.11 90)
 		(unit 1)
@@ -76554,7 +76699,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 102.87 44.45 0)
+		(at 102.87 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -76565,7 +76710,7 @@
 		(fields_autoplaced yes)
 		(uuid "b572640e-363f-44cc-8b95-ccb047df34c2")
 		(property "Reference" "#PWR07"
-			(at 102.87 48.26 0)
+			(at 102.87 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -76576,7 +76721,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 102.87 39.37 0)
+			(at 102.87 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -76586,7 +76731,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 44.45 0)
+			(at 102.87 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -76597,7 +76742,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 44.45 0)
+			(at 102.87 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -76608,7 +76753,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 102.87 44.45 0)
+			(at 102.87 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -78681,6 +78826,119 @@
 			(project "DCJ11CoreBoard"
 				(path "/5eec0387-d8fb-44a4-a3c8-821139754cf1"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:SZYY0603B1")
+		(at 370.84 228.6 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bac68ae8-328d-4971-99fa-d0146afbb950")
+		(property "Reference" "LED27"
+			(at 371.602 225.044 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SZYY0603B1"
+			(at 372.11 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:SZYY0603B1"
+			(at 370.84 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20231222/D33A5C3EC9CFE77C45E9F05B860C6407.pdf"
+			(at 370.84 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "蓝灯"
+			(at 370.84 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19712531"
+			(at 370.84 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "yongyu(永裕光电)"
+			(at 370.84 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SZYY0603B1"
+			(at 370.84 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b997d787-2728-4ef2-802f-84d0b5abce9a")
+		)
+		(pin "2"
+			(uuid "6c877de3-c6f7-4db8-9d98-e4984be04209")
+		)
+		(instances
+			(project "DCJ11CoreBoard"
+				(path "/5eec0387-d8fb-44a4-a3c8-821139754cf1"
+					(reference "LED27")
 					(unit 1)
 				)
 			)
