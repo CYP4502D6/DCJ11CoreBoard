@@ -11,7 +11,8 @@ Hardware specification and implementation status for the validated v1.2 hardware
 * **UART Interface:** WCH CH340N
 * **Bus Transceivers:** 5× Texas Instruments SN74CB3T3245
 * **LED Controllers:** 2× Awinic AW21024
-* **Status Indicators:** * 8× Onboard direct LEDs (RUN, HALT, ABORT, FETCH, READ, WRITE, IO_SPACE)
+* **Status Indicators:** 
+    * 8× Onboard direct LEDs (RUN, HALT, ABORT, FETCH, READ, WRITE, IO_SPACE)
     * 16-bit Data bus and 22-bit Address bus LEDs (Driven via AW21024 controllers)
 
 ---
@@ -28,7 +29,8 @@ Initial board-level hardware verification using Verilog to validate subsystem in
 
 ### Full System Integration (Hello World Project)
 System-level integration project executing on the DCJ-11 CPU.
-* **Functionality:** * Power-on configuration initialization to enter Console ODT mode.
+* **Functionality:** 
+    * Power-on configuration initialization to enter Console ODT mode.
     * 2 KB (1 Kword) active SRAM memory mapping.
     * DEC KL11 compatible UART console interface configuration.
     * Dynamic bus status and address/data line LED mapping.

@@ -41,3 +41,49 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# === macOS System Files ===
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon_
+._*
+
+# === Quartus II / Quartus Prime Toolchains ===
+db/
+incremental_db/
+simulation/
+output_files/
+hc_output/
+greybox_tmp/
+
+# Quartus Compilation Artifacts
+*.sof
+*.pof
+*.rpt
+*.summary
+*.jdi
+*.pin
+*.done
+*.qws
+*.bak
+
+# === Chisel / SBT / Scala Build Tools ===
+.sbtopts
+.sbtext.yml
+target/
+project/project/
+project/target/
+.history/
+.scala_dependencies
+.worksheet/
+
+# Chisel/CIRCT Intermediate Files
+*.fir
+*.anno.json
+*.f
+
+# Chisel Simulation & Waveforms
+test_run_dir/
+*.vcd
+*.waveform
