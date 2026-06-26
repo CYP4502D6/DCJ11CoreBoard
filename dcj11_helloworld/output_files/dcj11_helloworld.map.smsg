@@ -1,0 +1,5 @@
+Warning (10268): Verilog HDL information at UartTx.sv(16): always construct contains both blocking and non-blocking assignments File: Y:/QuartusPrj/dcj11_helloworld/task7_sram_2kb_hello/generated/UartTx.sv Line: 16
+Warning (10268): Verilog HDL information at UartRx.sv(18): always construct contains both blocking and non-blocking assignments File: Y:/QuartusPrj/dcj11_helloworld/task7_sram_2kb_hello/generated/UartRx.sv Line: 18
+Warning (10273): Verilog HDL warning at ram_64x8.sv(19): extended using "x" or "z" File: Y:/QuartusPrj/dcj11_helloworld/task7_sram_2kb_hello/generated/ram_64x8.sv Line: 19
+Warning (10268): Verilog HDL information at Aw21024I2cBurstWriter.sv(32): always construct contains both blocking and non-blocking assignments File: Y:/QuartusPrj/dcj11_helloworld/task7_sram_2kb_hello/generated/Aw21024I2cBurstWriter.sv Line: 32
+Warning (10268): Verilog HDL information at aw21024_led_panel.sv(61): always construct contains both blocking and non-blocking assignments File: Y:/QuartusPrj/dcj11_helloworld/task7_sram_2kb_hello/generated/aw21024_led_panel.sv Line: 61

@@ -1,0 +1,389 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "dcj_cont_n",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_abort_n",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_irq[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_addr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_addr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_addr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_addr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_addr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_addr[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_addr[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_addr[7]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_addr[8]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_addr[9]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_addr[10]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_addr[11]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_addr[12]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_addr[13]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_addr[14]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_addr[15]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_addr[16]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_addr[17]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_addr[18]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_addr[19]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_addr[20]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_ce1_n",
+					"strict" : false
+				},
+				{
+					"name" : "sram_oe_n",
+					"strict" : false
+				},
+				{
+					"name" : "sram_we_lo_n",
+					"strict" : false
+				},
+				{
+					"name" : "sram_we_hi_n",
+					"strict" : false
+				},
+				{
+					"name" : "uart_tx",
+					"strict" : false
+				},
+				{
+					"name" : "led_run",
+					"strict" : false
+				},
+				{
+					"name" : "led_halt",
+					"strict" : false
+				},
+				{
+					"name" : "led_fetch",
+					"strict" : false
+				},
+				{
+					"name" : "led_read",
+					"strict" : false
+				},
+				{
+					"name" : "led_write",
+					"strict" : false
+				},
+				{
+					"name" : "led_inack",
+					"strict" : false
+				},
+				{
+					"name" : "led_io_space",
+					"strict" : false
+				},
+				{
+					"name" : "led_err",
+					"strict" : false
+				},
+				{
+					"name" : "led_addr_en",
+					"strict" : false
+				},
+				{
+					"name" : "led_data_en",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_dal[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_dal[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_dal[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_dal[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_dal[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_dal[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_dal[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_dal[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_dal[8]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_dal[9]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_dal[10]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_dal[11]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_dal[12]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_dal[13]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_dal[14]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_dal[15]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_init_n",
+					"strict" : false
+				},
+				{
+					"name" : "sram_dq_lo[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_dq_lo[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_dq_lo[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_dq_lo[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_dq_lo[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_dq_lo[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_dq_lo[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_dq_lo[7]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_dq_hi[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_dq_hi[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_dq_hi[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_dq_hi[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_dq_hi[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_dq_hi[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_dq_hi[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sram_dq_hi[7]",
+					"strict" : false
+				},
+				{
+					"name" : "led_i2c_scl",
+					"strict" : false
+				},
+				{
+					"name" : "led_i2c_sda",
+					"strict" : false
+				},
+				{
+					"name" : "clk50",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_bufctl_n",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_bs[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_ale_n",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_bs[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_aio[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_aio[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_aio[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_dal_hi[21]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_dal_hi[20]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_dal_hi[19]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_dal_hi[18]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_dal_hi[17]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_dal_hi[16]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_aio[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dcj_sctl_n",
+					"strict" : false
+				},
+				{
+					"name" : "uart_rx",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

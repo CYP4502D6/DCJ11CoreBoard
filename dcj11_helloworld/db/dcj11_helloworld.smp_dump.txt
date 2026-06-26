@@ -1,0 +1,14 @@
+
+State Machine - |top|dcj11_sram_2kb_hello_core:core|preload_state
+Name preload_state.PRE_PROG_WAIT preload_state.PRE_PROG preload_state.PRE_CLEAR_WAIT preload_state.PRE_CLEAR preload_state.PRE_DONE 
+preload_state.PRE_CLEAR 0 0 0 0 0 
+preload_state.PRE_CLEAR_WAIT 0 0 1 1 0 
+preload_state.PRE_PROG 0 1 0 1 0 
+preload_state.PRE_PROG_WAIT 1 0 0 1 0 
+preload_state.PRE_DONE 0 0 0 1 1 
+
+State Machine - |top|dcj11_sram_2kb_hello_core:core|sram_dual_x8_bus16:sram_ip|state
+Name state.ST_IDLE state.ST_END state.ST_WAIT 
+state.ST_IDLE 0 0 0 
+state.ST_WAIT 1 0 1 
+state.ST_END 1 1 0 
