@@ -1,0 +1,188 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+# Date created = 15:35:22  June 28, 2026
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		dcj11tapebasic_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE15F23C8
+set_global_assignment -name TOP_LEVEL_ENTITY top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "15:35:22  JUNE 28, 2026"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Standard Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+
+set_location_assignment PIN_G21 -to clk50
+
+set_location_assignment PIN_AB9 -to dcj_dal[0]
+set_location_assignment PIN_AA15 -to dcj_dal[1]
+set_location_assignment PIN_AB16 -to dcj_dal[2]
+set_location_assignment PIN_AA16 -to dcj_dal[3]
+set_location_assignment PIN_AB17 -to dcj_dal[4]
+set_location_assignment PIN_AA17 -to dcj_dal[5]
+set_location_assignment PIN_AA8 -to dcj_dal[6]
+set_location_assignment PIN_AB8 -to dcj_dal[7]
+set_location_assignment PIN_AA9 -to dcj_dal[8]
+set_location_assignment PIN_AA10 -to dcj_dal[9]
+set_location_assignment PIN_AB10 -to dcj_dal[10]
+set_location_assignment PIN_AB13 -to dcj_dal[11]
+set_location_assignment PIN_AA13 -to dcj_dal[12]
+set_location_assignment PIN_AB14 -to dcj_dal[13]
+set_location_assignment PIN_AA14 -to dcj_dal[14]
+set_location_assignment PIN_AB15 -to dcj_dal[15]
+set_location_assignment PIN_AA21 -to dcj_dal_hi[16]
+set_location_assignment PIN_AA20 -to dcj_dal_hi[17]
+set_location_assignment PIN_AB20 -to dcj_dal_hi[18]
+set_location_assignment PIN_AA19 -to dcj_dal_hi[19]
+set_location_assignment PIN_AB19 -to dcj_dal_hi[20]
+set_location_assignment PIN_AA18 -to dcj_dal_hi[21]
+
+set_location_assignment PIN_AA3 -to dcj_aio[0]
+set_location_assignment PIN_AB3 -to dcj_aio[1]
+set_location_assignment PIN_AA4 -to dcj_aio[2]
+set_location_assignment PIN_AB4 -to dcj_aio[3]
+set_location_assignment PIN_AA7 -to dcj_bs[0]
+set_location_assignment PIN_AB7 -to dcj_bs[1]
+set_location_assignment PIN_Y22 -to dcj_ale_n
+set_location_assignment PIN_W22 -to dcj_sctl_n
+set_location_assignment PIN_Y21 -to dcj_bufctl_n
+set_location_assignment PIN_W21 -to dcj_strb_n
+set_location_assignment PIN_U22 -to dcj_clk2
+set_location_assignment PIN_W20 -to dcj_init_n
+set_location_assignment PIN_U21 -to dcj_cont_n
+set_location_assignment PIN_AA5 -to dcj_irq[0]
+set_location_assignment PIN_AB5 -to dcj_irq[1]
+set_location_assignment PIN_V22 -to dcj_event_n
+set_location_assignment PIN_AB18 -to dcj_abort_n
+set_location_assignment PIN_Y17 -to dcj_dv
+set_location_assignment PIN_V21 -to dcj_miss_n
+
+set_location_assignment PIN_B3 -to sram_addr[0]
+set_location_assignment PIN_A3 -to sram_addr[1]
+set_location_assignment PIN_B4 -to sram_addr[2]
+set_location_assignment PIN_A4 -to sram_addr[3]
+set_location_assignment PIN_B5 -to sram_addr[4]
+set_location_assignment PIN_A5 -to sram_addr[5]
+set_location_assignment PIN_B6 -to sram_addr[6]
+set_location_assignment PIN_A6 -to sram_addr[7]
+set_location_assignment PIN_A8 -to sram_addr[8]
+set_location_assignment PIN_B9 -to sram_addr[9]
+set_location_assignment PIN_A9 -to sram_addr[10]
+set_location_assignment PIN_B10 -to sram_addr[11]
+set_location_assignment PIN_A10 -to sram_addr[12]
+set_location_assignment PIN_A13 -to sram_addr[13]
+set_location_assignment PIN_B13 -to sram_addr[14]
+set_location_assignment PIN_A14 -to sram_addr[15]
+set_location_assignment PIN_B14 -to sram_addr[16]
+set_location_assignment PIN_B7 -to sram_addr[17]
+set_location_assignment PIN_A7 -to sram_addr[18]
+set_location_assignment PIN_B8 -to sram_addr[19]
+set_location_assignment PIN_C10 -to sram_addr[20]
+set_location_assignment PIN_AA1 -to sram_dq_lo[0]
+set_location_assignment PIN_Y2 -to sram_dq_lo[1]
+set_location_assignment PIN_Y1 -to sram_dq_lo[2]
+set_location_assignment PIN_W2 -to sram_dq_lo[3]
+set_location_assignment PIN_W1 -to sram_dq_lo[4]
+set_location_assignment PIN_V2 -to sram_dq_lo[5]
+set_location_assignment PIN_V1 -to sram_dq_lo[6]
+set_location_assignment PIN_U2 -to sram_dq_lo[7]
+set_location_assignment PIN_A17 -to sram_dq_hi[0]
+set_location_assignment PIN_B17 -to sram_dq_hi[1]
+set_location_assignment PIN_A18 -to sram_dq_hi[2]
+set_location_assignment PIN_B18 -to sram_dq_hi[3]
+set_location_assignment PIN_A19 -to sram_dq_hi[4]
+set_location_assignment PIN_B19 -to sram_dq_hi[5]
+set_location_assignment PIN_A20 -to sram_dq_hi[6]
+set_location_assignment PIN_B20 -to sram_dq_hi[7]
+set_location_assignment PIN_B1 -to sram_ce1_n
+set_location_assignment PIN_B2 -to sram_oe_n
+set_location_assignment PIN_C4 -to sram_we_lo_n
+set_location_assignment PIN_C3 -to sram_we_hi_n
+
+set_location_assignment PIN_C1 -to uart_rx
+set_location_assignment PIN_D2 -to uart_tx
+
+set_location_assignment PIN_R22 -to sd_spi_sck
+set_location_assignment PIN_P21 -to sd_spi_mosi
+set_location_assignment PIN_R21 -to sd_spi_miso
+set_location_assignment PIN_P22 -to sd_spi_cs_n
+
+set_location_assignment PIN_R19 -to led_run
+set_location_assignment PIN_R18 -to led_halt
+set_location_assignment PIN_R16 -to led_fetch
+set_location_assignment PIN_R15 -to led_read
+set_location_assignment PIN_R14 -to led_write
+set_location_assignment PIN_R13 -to led_inack
+set_location_assignment PIN_R12 -to led_io_space
+set_location_assignment PIN_R17 -to led_err
+set_location_assignment PIN_Y7 -to led_i2c_scl
+set_location_assignment PIN_Y6 -to led_i2c_sda
+set_location_assignment PIN_Y4 -to led_addr_en
+set_location_assignment PIN_Y8 -to led_data_en
+
+set_global_assignment -name ENABLE_OCT_DONE OFF
+set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVCMOS"
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_global_assignment -name PARTITION_NETLIST_TYPE POST_FIT -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name ENABLE_SIGNALTAP OFF
+set_global_assignment -name USE_SIGNALTAP_FILE stp1.stp
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name SYSTEMVERILOG_FILE dcj11tapebasic/generated/UartTx.sv
+set_global_assignment -name SYSTEMVERILOG_FILE dcj11tapebasic/generated/UartRx.sv
+set_global_assignment -name SYSTEMVERILOG_FILE dcj11tapebasic/generated/SdTapeStream.sv
+set_global_assignment -name SYSTEMVERILOG_FILE dcj11tapebasic/generated/sd_block_buffer_512x8.sv
+set_global_assignment -name SYSTEMVERILOG_FILE dcj11tapebasic/generated/ram_64x8.sv
+set_global_assignment -name SYSTEMVERILOG_FILE dcj11tapebasic/generated/Queue64_UInt8.sv
+set_global_assignment -name SYSTEMVERILOG_FILE dcj11tapebasic/generated/Pc11Reader.sv
+set_global_assignment -name SYSTEMVERILOG_FILE dcj11tapebasic/generated/Kl11Console.sv
+set_global_assignment -name SYSTEMVERILOG_FILE dcj11tapebasic/generated/Aw21024Panel.sv
+set_global_assignment -name SYSTEMVERILOG_FILE dcj11tapebasic/generated/Aw21024I2cBurstWriter.sv
+set_global_assignment -name VERILOG_FILE dcj11tapebasic/rtl/sram_dual_x8_bus16.v
+set_global_assignment -name VERILOG_FILE dcj11tapebasic/rtl/dcj11tapebasic_core.v
+set_global_assignment -name VERILOG_FILE dcj11tapebasic/rtl/dcj11_bus_frontend.v
+set_global_assignment -name VERILOG_FILE dcj11tapebasic/top.v
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

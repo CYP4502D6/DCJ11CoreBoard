@@ -1,0 +1,10 @@
+dcj11tapebasic SD boot plus user tape image
+tape_file=tapeimage.dat
+sd_file=dcj11tapebasic_sd.img
+tape_bytes=10405
+sd_bytes=1060352
+boot_start_lba=1
+boot_byte_length=10405
+user_meta_lba=22
+user_data_lba=23
+checksums=none

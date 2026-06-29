@@ -39,3 +39,18 @@ System-level integration project executing on the DCJ-11 CPU.
 ![Assembled Board v1.2](pic/dcj11pcb2.jpg)
 ![Console ODT Terminal](pic/odtconsole.png)
 ![Hello World Output](pic/helloworld.png)
+
+### TapeBASIC Implementation
+System integration project allowing the execution of PDP-11 Tape BASIC V007A.
+* **Functionality:** 
+  * Power-on configuration initialization to enter Console ODT mode.
+  * 64 KB address space mapping, allocating 56 KB as active program memory and 8 KB as standard I/O space.
+  * DEC KL11 compatible UART console connection.
+  * DEC PC11 paper tape reader/punch controller emulation.
+  * Dynamic bus status and address/data line LED mapping.
+  * SD card sub-system emulating paper tape storage with dual-slot allocation:
+    * *System Slot (Read-Only):* Houses the BASIC bootloader and core system image. Automatically switches context post-boot.
+    * *User Slot (Read/Write):* Allocated for BASIC user programs and data storage.
+* **Usage:** 
+  * Data synchronization and partition management within the user slot are handled via provided Python utilities located in the `tools` directory.
+  * Pre-compiled configuration bitstream available as `output_file_flash.jic` for direct deployment to the FPGA configuration flash via an external programmer.
