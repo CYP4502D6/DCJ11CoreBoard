@@ -1,8 +1,8 @@
 # DEC DCJ-11 PDP-11 Replication Project
 
-Hardware specification and implementation status for the validated v1.2 hardware revision.
+Hardware specification and implementation status for the validated v1.3 hardware revision.
 
-## Hardware Specifications (v1.2)
+## Hardware Specifications 
 
 * **CPU:** DEC DCJ-11
 * **FPGA:** Intel/Altera Cyclone IV EP4CE15F23C8N
@@ -14,12 +14,16 @@ Hardware specification and implementation status for the validated v1.2 hardware
 * **Status Indicators:** 
     * 8× Onboard direct LEDs (RUN, HALT, ABORT, FETCH, READ, WRITE, IO_SPACE)
     * 16-bit Data bus and 22-bit Address bus LEDs (Driven via AW21024 controllers)
-
+* **MCU & Ethernet Subsystem for DEQNA (v1.3 Integrated):**
+    * RP2040 MCU
+    * Reserved expansion header for Wiznet W5500 SPI Ethernet PHY module
 ---
+
+![Assembled PCB v1.3](pic/pcbv1.3.jpeg)
 
 ## Implementation and Validation Status
 
-### Board-Level Hardware Bringup
+### Board-Level Hardware Bringup for v1.2 Board
 Initial board-level hardware verification using Verilog to validate subsystem integrity.
 * **Scope:** Individual validation of AW21024 controllers, SRAM interface, onboard status LEDs, and UART peripheral lines.
 
@@ -27,7 +31,7 @@ Initial board-level hardware verification using Verilog to validate subsystem in
 ![SRAM Test Output](pic/sramtest.png)
 ![SRAM Signal Waveform](pic/sramwave.png)
 
-### Full System Integration (Hello World Project)
+### Full System Integration (Hello World Project) for v1.2 Board
 System-level integration project executing on the DCJ-11 CPU.
 * **Functionality:** 
     * Power-on configuration initialization to enter Console ODT mode.
@@ -54,3 +58,5 @@ System integration project allowing the execution of PDP-11 Tape BASIC V007A.
 * **Usage:** 
   * Data synchronization and partition management within the user slot are handled via provided Python utilities located in the `tools` directory.
   * Pre-compiled configuration bitstream available as `output_file_flash.jic` for direct deployment to the FPGA configuration flash via an external programmer.
+
+![Tape BASIC for v1.3 Board](pic/tapebasic.png)
