@@ -23,6 +23,20 @@ Hardware specification and implementation status for the validated v1.3 hardware
 
 ## Implementation and Validation Status
 
+### Full 2.11 BSD Unix Implementation for v1.3 Board
+System intergration for running full multi-user mode 2.11 BSD Unix via RP06 disk.
+* **Functionality:**
+  * Power-on configuration and pre-loading 45Boot bootloader into SRAM starting at octal address `2000`.
+  * Full 4 MiB physical SRAM memory mapping exploiting the 22-bit address space.
+  * DEC KL11 compatible UART console interface for system terminal I/O.
+  * DEC KW11 line-frequency real-time clock generator.
+  * DMA-capable DEC RH11 disk controller emulation, enabling direct block transfers for 2.11 BSD RP06 disk images.
+* **Resources & Demonstration:**
+  * Video Demonstration: https://www.bilibili.com/video/BV1oagP6AEpL/
+
+![2.11 BSD](pic/211bsd1.png)
+![2.11 BSD](pic/211bsd2.jpeg)
+
 ### Board-Level Hardware Bringup for v1.2 Board
 Initial board-level hardware verification using Verilog to validate subsystem integrity.
 * **Scope:** Individual validation of AW21024 controllers, SRAM interface, onboard status LEDs, and UART peripheral lines.
